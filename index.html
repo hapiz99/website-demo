@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iron Pulse | Gym & Fitness Center</title>
+  <!-- Bootstrap 5 CSS + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Google Fonts for a strong, modern look -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top py-3">
+  <div class="container">
+    <a class="navbar-brand fw-extrabold fs-3" href="#">
+      <span class="text-accent">IRON</span>PULSE
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#gymNavbar" aria-controls="gymNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="gymNavbar">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link nav-link-custom active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="#classes">Classes</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="#trainers">Trainers</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="#membership">Membership</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="#contact">Contact</a></li>
+      </ul>
+      <a href="#membership" class="btn btn-accent px-4 py-2">Join Now <i class="bi bi-arrow-up-right ms-1"></i></a>
+    </div>
+  </div>
+</nav>
+
+<!-- ========== HERO SECTION ========== -->
+<section id="home" class="position-relative bg-pattern hero-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <span class="badge bg-dark border border-secondary text-accent px-3 py-2 mb-3 rounded-pill">
+          <i class="bi bi-lightning-charge-fill me-1"></i> No pain, no gain
+        </span>
+        <h1 class="display-3 fw-extrabold lh-1 mb-4">
+          PUSH YOUR <span class="text-accent">LIMITS</span><br>FEEL THE <span class="text-accent">PULSE</span>
+        </h1>
+        <p class="lead text-secondary mb-4 hero-copy">
+          Train harder, recover smarter, and join a community that lifts you higher. 
+          Modern equipment, expert coaches, and results-driven programs.
+        </p>
+        <div class="d-flex flex-wrap gap-3">
+          <a href="#membership" class="btn btn-accent btn-lg px-4">Start 7-Day Free Trial</a>
+          <a href="#classes" class="btn btn-outline-light-custom btn-lg px-4">Explore Classes</a>
+        </div>
+        <div class="d-flex mt-5 gap-4">
+          <div><span class="fw-bold fs-4">200+</span><br><small class="text-secondary">Weekly sessions</small></div>
+          <div><span class="fw-bold fs-4">15+</span><br><small class="text-secondary">Expert coaches</small></div>
+          <div><span class="fw-bold fs-4">4.9★</span><br><small class="text-secondary">Member rating</small></div>
+        </div>
+      </div>
+      <div class="col-lg-6 mt-5 mt-lg-0">
+        <div class="hero-image-wrap">
+          <img src="images/gym-interior.jpg" alt="Modern gym floor with strength-training equipment" class="hero-image">
+          <div class="hero-image-caption">
+            <i class="bi bi-lightning-charge-fill text-accent me-2"></i>Built for your next personal best
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ABOUT / WHY US ========== -->
+<section id="about" class="section-padding bg-charcoal">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-md-6">
+        <h6 class="text-accent fw-bold text-uppercase mb-2"><i class="bi bi-dot"></i> Why Iron Pulse</h6>
+        <h2 class="display-5 fw-extrabold mb-3">MORE THAN A GYM.<br>A LIFESTYLE.</h2>
+        <p class="text-secondary mb-4">We combine cutting-edge equipment, science-backed training, and a motivating atmosphere. Whether you're a beginner or a pro, our community pushes you forward.</p>
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <div class="d-flex align-items-center gap-2"><i class="bi bi-check-circle-fill text-accent fs-5"></i><span>24/7 access</span></div>
+            <div class="d-flex align-items-center gap-2 mt-2"><i class="bi bi-check-circle-fill text-accent fs-5"></i><span>Smart recovery zone</span></div>
+          </div>
+          <div class="col-sm-6">
+            <div class="d-flex align-items-center gap-2"><i class="bi bi-check-circle-fill text-accent fs-5"></i><span>Personal training</span></div>
+            <div class="d-flex align-items-center gap-2 mt-2"><i class="bi bi-check-circle-fill text-accent fs-5"></i><span>Nutrition coaching</span></div>
+          </div>
+        </div>
+        <img src="images/gym-training.jpg" alt="Athlete training with weights in the gym" class="about-image mt-4">
+      </div>
+      <div class="col-md-6">
+        <div class="row g-4">
+          <div class="col-6">
+            <div class="card-custom p-4 text-center h-100">
+              <i class="bi bi-stopwatch-fill fs-1 text-accent"></i>
+              <h3 class="fs-2 fw-bold mt-2">24/7</h3>
+              <p class="text-secondary small mb-0">Always open</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card-custom p-4 text-center h-100">
+              <i class="bi bi-people-fill fs-1 text-accent"></i>
+              <h3 class="fs-2 fw-bold mt-2">2000+</h3>
+              <p class="text-secondary small mb-0">Active members</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card-custom p-4 text-center h-100">
+              <i class="bi bi-droplet-fill fs-1 text-accent"></i>
+              <h3 class="fs-2 fw-bold mt-2">30+</h3>
+              <p class="text-secondary small mb-0">Weekly classes</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card-custom p-4 text-center h-100">
+              <i class="bi bi-emoji-smile-fill fs-1 text-accent"></i>
+              <h3 class="fs-2 fw-bold mt-2">98%</h3>
+              <p class="text-secondary small mb-0">Goal success</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CLASSES / SCHEDULE ========== -->
+<section id="classes" class="section-padding">
+  <div class="container">
+    <div class="d-flex flex-wrap justify-content-between align-items-end mb-5">
+      <div>
+        <h6 class="text-accent fw-bold text-uppercase"><i class="bi bi-dot"></i> Weekly schedule</h6>
+        <h2 class="display-5 fw-extrabold mb-0">FIND YOUR CLASS</h2>
+      </div>
+      <a href="#" class="btn btn-outline-light-custom mt-3 mt-sm-0">View all classes <i class="bi bi-arrow-right ms-1"></i></a>
+    </div>
+    <div class="row g-4">
+      <!-- class 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card-custom p-4 h-100">
+          <div class="d-flex justify-content-between align-items-start">
+            <i class="bi bi-lightning-charge-fill fs-1 text-accent"></i>
+            <span class="class-schedule-badge">Mon & Wed</span>
+          </div>
+          <h4 class="fw-bold mt-4">HIIT Burn</h4>
+          <p class="text-secondary small">45 min · High intensity interval training to torch calories.</p>
+          <hr class="border-secondary">
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="small"><i class="bi bi-clock me-1"></i>6:30 AM</span>
+            <span class="small"><i class="bi bi-person me-1"></i>Coach Maya</span>
+          </div>
+        </div>
+      </div>
+      <!-- class 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card-custom p-4 h-100">
+          <div class="d-flex justify-content-between align-items-start">
+            <i class="bi bi-heart-pulse-fill fs-1 text-accent"></i>
+            <span class="class-schedule-badge">Tue & Thu</span>
+          </div>
+          <h4 class="fw-bold mt-4">Power Yoga</h4>
+          <p class="text-secondary small">60 min · Build strength, flexibility and mental focus.</p>
+          <hr class="border-secondary">
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="small"><i class="bi bi-clock me-1"></i>8:00 AM</span>
+            <span class="small"><i class="bi bi-person me-1"></i>Coach Leo</span>
+          </div>
+        </div>
+      </div>
+      <!-- class 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card-custom p-4 h-100">
+          <div class="d-flex justify-content-between align-items-start">
+            <i class="bi bi-bicycle fs-1 text-accent"></i>
+            <span class="class-schedule-badge">Mon, Wed, Fri</span>
+          </div>
+          <h4 class="fw-bold mt-4">Spin Cycle</h4>
+          <p class="text-secondary small">45 min · Cardio on wheels – energizing playlist included.</p>
+          <hr class="border-secondary">
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="small"><i class="bi bi-clock me-1"></i>5:30 PM</span>
+            <span class="small"><i class="bi bi-person me-1"></i>Coach Nina</span>
+          </div>
+        </div>
+      </div>
+      <!-- class 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card-custom p-4 h-100">
+          <div class="d-flex justify-content-between align-items-start">
+            <i class="bi bi-dumbbell-fill fs-1 text-accent"></i>
+            <span class="class-schedule-badge">Sat & Sun</span>
+          </div>
+          <h4 class="fw-bold mt-4">Strength Lab</h4>
+          <p class="text-secondary small">60 min · Compound lifts, progressive overload, and form.</p>
+          <hr class="border-secondary">
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="small"><i class="bi bi-clock me-1"></i>10:00 AM</span>
+            <span class="small"><i class="bi bi-person me-1"></i>Coach Alex</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TRAINERS ========== -->
+<section id="trainers" class="section-padding bg-charcoal">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h6 class="text-accent fw-bold text-uppercase"><i class="bi bi-dot"></i> The team</h6>
+      <h2 class="display-5 fw-extrabold">MEET YOUR COACHES</h2>
+      <p class="text-secondary mx-auto copy-wide">Certified, passionate, and dedicated to your progress. They’ll guide you every rep.</p>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <div class="col-sm-6 col-lg-3">
+        <div class="card-custom text-center p-4 h-100">
+          <img src="images/coach-maya.jpg" alt="Coach Maya" class="trainer-img mx-auto mb-3">
+          <h5 class="fw-bold mb-0">Maya Chen</h5>
+          <p class="text-accent small">HIIT & Conditioning</p>
+          <p class="text-secondary small">Former national athlete, 8+ years coaching.</p>
+          <div class="mt-2">
+            <a href="#" class="social-icon mx-1"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon mx-1"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="card-custom text-center p-4 h-100">
+          <img src="images/coach-leo.jpg" alt="Coach Leo" class="trainer-img mx-auto mb-3">
+          <h5 class="fw-bold mb-0">Leo Rivera</h5>
+          <p class="text-accent small">Yoga & Mobility</p>
+          <p class="text-secondary small">500RYT, focuses on functional movement.</p>
+          <div class="mt-2">
+            <a href="#" class="social-icon mx-1"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon mx-1"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="card-custom text-center p-4 h-100">
+          <img src="images/coach-nina.jpg" alt="Coach Nina" class="trainer-img mx-auto mb-3">
+          <h5 class="fw-bold mb-0">Nina Voss</h5>
+          <p class="text-accent small">Cycling & Endurance</p>
+          <p class="text-secondary small">Ex‑pro cyclist, brings energy to every ride.</p>
+          <div class="mt-2">
+            <a href="#" class="social-icon mx-1"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon mx-1"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="card-custom text-center p-4 h-100">
+          <img src="images/coach-alex.jpg" alt="Coach Alex" class="trainer-img mx-auto mb-3">
+          <h5 class="fw-bold mb-0">Alex Mercer</h5>
+          <p class="text-accent small">Strength & Power</p>
+          <p class="text-secondary small">Powerlifting coach, CSCS certified.</p>
+          <div class="mt-2">
+            <a href="#" class="social-icon mx-1"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon mx-1"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== MEMBERSHIP / PRICING ========== -->
+<section id="membership" class="section-padding">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h6 class="text-accent fw-bold text-uppercase"><i class="bi bi-dot"></i> Simple pricing</h6>
+      <h2 class="display-5 fw-extrabold">CHOOSE YOUR PLAN</h2>
+      <p class="text-secondary mx-auto copy-wide">No hidden fees. Cancel anytime. All plans include locker room access and free fitness assessment.</p>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <!-- basic -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card-custom p-5 h-100 d-flex flex-column">
+          <h5 class="fw-bold text-uppercase">Basic</h5>
+          <div class="my-3"><span class="display-4 fw-extrabold">$29</span><span class="text-secondary">/mo</span></div>
+          <p class="text-secondary">Perfect for self‑starters.</p>
+          <ul class="list-unstyled mb-4">
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-accent me-2"></i>Gym floor access</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-accent me-2"></i>Locker room + showers</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-accent me-2"></i>1 group class per week</li>
+            <li class="mb-2 text-secondary"><i class="bi bi-x-circle me-2"></i>Personal training</li>
+          </ul>
+          <a href="#" class="btn btn-outline-light-custom mt-auto w-100">Get Started</a>
+        </div>
+      </div>
+      <!-- pro (popular) -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card-custom price-card-popular p-5 h-100 d-flex flex-column position-relative">
+          <span class="position-absolute top-0 start-50 translate-middle badge bg-accent text-dark px-4 py-2 rounded-pill fw-bold popular-badge">MOST POPULAR</span>
+          <h5 class="fw-bold text-uppercase text-accent">Pro</h5>
+          <div class="my-3"><span class="display-4 fw-extrabold">$59</span><span class="text-secondary">/mo</span></div>
+          <p class="text-secondary">Everything you need to level up.</p>
+          <ul class="list-unstyled mb-4">
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-accent me-2"></i>Unlimited gym access</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-accent me-2"></i>All group classes</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-accent me-2"></i>1 PT session / month</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-accent me-2"></i>Recovery zone access</li>
+          </ul>
+          <a href="#" class="btn btn-accent mt-auto w-100">Start Free Trial</a>
+        </div>
+      </div>
+      <!-- elite -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card-custom p-5 h-100 d-flex flex-column">
+          <h5 class="fw-bold text-uppercase">Elite</h5>
+          <div class="my-3"><span class="display-4 fw-extrabold">$99</span><span class="text-secondary">/mo</span></div>
+          <p class="text-secondary">For maximum results.</p>
+          <ul class="list-unstyled mb-4">
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-accent me-2"></i>All Pro benefits</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-accent me-2"></i>4 PT sessions / month</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-accent me-2"></i>Custom meal plan</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-accent me-2"></i>Priority booking</li>
+          </ul>
+          <a href="#" class="btn btn-outline-light-custom mt-auto w-100">Go Elite</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TESTIMONIAL ========== -->
+<section class="section-padding bg-charcoal">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <i class="bi bi-quote display-1 text-accent opacity-50"></i>
+        <h3 class="fw-light fst-italic mb-4">"Iron Pulse completely changed my relationship with fitness. The trainers actually care, and the atmosphere pushes you to show up every day."</h3>
+        <div class="d-flex justify-content-center align-items-center gap-3">
+          <img src="images/member-sarah.jpg" alt="Iron Pulse member Sarah" width="56" height="56" class="rounded-circle border border-2 border-accent">
+          <div class="text-start">
+            <h6 class="fw-bold mb-0">Sarah K.</h6>
+            <small class="text-secondary">Member since 2023</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT / CTA ========== -->
+<section id="contact" class="section-padding">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-6">
+        <h6 class="text-accent fw-bold text-uppercase"><i class="bi bi-dot"></i> Get in touch</h6>
+        <h2 class="display-5 fw-extrabold mb-4">READY TO START?</h2>
+        <p class="text-secondary mb-4">Drop by for a tour, or send us a message. We’ll help you find the perfect plan and get you started on your fitness journey.</p>
+        <div class="d-flex align-items-center gap-3 mb-3">
+          <i class="bi bi-geo-alt-fill text-accent fs-4"></i>
+          <span>123 Pulse Street, Downtown Fitness District</span>
+        </div>
+        <div class="d-flex align-items-center gap-3 mb-3">
+          <i class="bi bi-telephone-fill text-accent fs-4"></i>
+          <span>+1 (555) 234‑9876</span>
+        </div>
+        <div class="d-flex align-items-center gap-3 mb-3">
+          <i class="bi bi-envelope-fill text-accent fs-4"></i>
+          <span>hello@ironpulse.fit</span>
+        </div>
+        <div class="d-flex align-items-center gap-3 mt-4">
+          <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <form id="contact-form" action="contact.php" method="post" class="bg-charcoal p-4 p-md-5 rounded-5 border border-secondary border-opacity-25">
+          <h4 class="fw-bold mb-4">Send a message</h4>
+          <div class="mb-3">
+            <label for="contact-name" class="form-label small text-secondary">Full name</label>
+            <input id="contact-name" name="name" type="text" class="form-control bg-dark border-secondary text-white" placeholder="Alex Johnson" autocomplete="name" maxlength="100" required>
+          </div>
+          <div class="mb-3">
+            <label for="contact-email" class="form-label small text-secondary">Email address</label>
+            <input id="contact-email" name="email" type="email" class="form-control bg-dark border-secondary text-white" placeholder="alex@example.com" autocomplete="email" maxlength="254" required>
+          </div>
+          <div class="mb-3">
+            <label for="contact-message" class="form-label small text-secondary">Message</label>
+            <textarea id="contact-message" name="message" class="form-control bg-dark border-secondary text-white" rows="3" placeholder="I'm interested in a membership..." maxlength="5000" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-accent w-100 py-2 fw-bold">Send message <i class="bi bi-send ms-1"></i></button>
+          <p id="contact-form-status" class="small text-secondary mt-3 mb-0" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="bg-charcoal pt-5 pb-4 border-top border-secondary border-opacity-10">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <a class="navbar-brand fw-extrabold fs-3" href="#"><span class="text-accent">IRON</span>PULSE</a>
+        <p class="text-secondary mt-3 brand-description">Building stronger bodies and minds since 2018. Your journey starts here.</p>
+        <div class="d-flex gap-3 mt-3">
+          <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-2">
+        <h6 class="fw-bold text-uppercase small mb-3">Explore</h6>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#home" class="footer-link">Home</a></li>
+          <li class="mb-2"><a href="#about" class="footer-link">About</a></li>
+          <li class="mb-2"><a href="#classes" class="footer-link">Classes</a></li>
+          <li class="mb-2"><a href="#trainers" class="footer-link">Trainers</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <h6 class="fw-bold text-uppercase small mb-3">Support</h6>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#membership" class="footer-link">Membership</a></li>
+          <li class="mb-2"><a href="#contact" class="footer-link">Contact</a></li>
+          <li class="mb-2"><a href="#" class="footer-link">FAQ</a></li>
+          <li class="mb-2"><a href="#" class="footer-link">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h6 class="fw-bold text-uppercase small mb-3">Open hours</h6>
+        <ul class="list-unstyled text-secondary small">
+          <li class="mb-1">Mon–Fri: 5:00 AM – 11:00 PM</li>
+          <li class="mb-1">Sat–Sun: 7:00 AM – 9:00 PM</li>
+          <li class="mt-3 text-accent"><i class="bi bi-clock me-1"></i>24/7 access for Pro & Elite</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="border-secondary opacity-25 mt-4">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 text-secondary small">
+      <span>© 2025 Iron Pulse Fitness. All rights reserved. Designed with <i class="bi bi-heart-fill text-accent"></i> for the grind.</span>
+      <span>HTML template by <a href="https://templatesjungle.com/" class="footer-link" target="_blank" rel="noopener noreferrer">TemplatesJungle</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS bundle (for navbar toggle etc.) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
